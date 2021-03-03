@@ -1,0 +1,110 @@
+body {
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+	margin: 0;
+}
+
+.container {
+	width: 1024px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+	font-size: 20px;
+	color:#fff;
+	text-transform: uppercase;
+	line-height: 1.2;
+	border-radius: 12px;
+    background:#29c5e6;
+    padding: 16px 18px 18px 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+nav li a {
+	color: inherit;
+	text-decoration: unset;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #29c5e6;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+
+img {
+	width: 40px;
+}
+
+span {
+	position: relative;
+    bottom: 14px;
+}
+
+.banner {
+  margin: 50px 0 0 0;
+}
+
+button {
+	color: #fff;
+	background-color: #296ce6;
+	border: none;
+	padding: 10px 30px;
+	font-family: 'Oswald', sans-serif;
+}
+
+a.button_text {
+	color: inherit;
+	text-decoration: unset;
+}
+
+#heading {
+	background: #29c5e6;
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Oswald', sans-serif;
+	background: #f8f8f8;
+	margin: 0;
+	padding: 0 10px;
+
+}
+
+h2 {
+	margin: 0px 10px 100px 10px;
+}
